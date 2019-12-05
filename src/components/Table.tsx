@@ -9,20 +9,17 @@ export const Table = styled('table')(
     border: '1px solid',
     borderColor: 'grays.3',
     borderSpacing: 0,
-    boxShadow: '0 1px 5px rgba(0,0,0,0.2), 0 2px 2px rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12)',
-    margin: '4px',
+    boxShadow:
+      '0 1px 5px rgba(0,0,0,0.2), 0 2px 2px rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12)',
+    margin: '4px'
   })
 );
 
-export const Thead = styled('thead')(
-  css({
-    
-  })
-);
+export const Thead = styled('thead')(css({}));
 export const Tbody = styled('tbody')({});
 export const Tr = styled('tr')(
   css({
-    height: 6,
+    height: 6
   })
 );
 export const Td = styled('td')(
@@ -31,7 +28,7 @@ export const Td = styled('td')(
     borderTop: '1px solid',
     borderColor: 'grays.3',
     paddingX: 2,
-    paddingY: 1, 
+    paddingY: 1,
     fontSize: 2
   })
 );
@@ -54,7 +51,7 @@ export const Tfoot = styled('tfoot')(
       borderTop: '1px solid',
       borderColor: 'grays.3',
       paddingX: 2,
-      paddingY: 1, 
+      paddingY: 1,
       fontSize: 2
     }
   })

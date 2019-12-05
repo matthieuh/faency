@@ -5,30 +5,30 @@ import { fontStyles } from './fonts';
 export const GlobalStyles = createGlobalStyle(
   css({
     '*': {
-      boxSizing: 'border-box',
+      boxSizing: 'border-box'
     },
     html: {
       fontFamily: 'normal',
       WebkitFontSmoothing: 'antialiased',
       MozOsxFontSmoothing: 'grayscale',
-      textRendering: 'optimizeLegibility',
+      textRendering: 'optimizeLegibility'
     },
     body: {
-      margin: 0,
+      margin: 0
     },
     'input, button, select, textarea': {
       fontFamily: 'inherit',
       fontSize: 'inherit',
       fontWeight: 'normal',
-      color: 'inherit',
+      color: 'inherit'
     },
     svg: {
       verticalAlign: 'middle',
-      display: 'block',
-    },
+      display: 'block'
+    }
   }),
   {
-    html: { lineHeight: 1.2 },
+    html: { lineHeight: 1.2 }
   },
   fontStyles
 );

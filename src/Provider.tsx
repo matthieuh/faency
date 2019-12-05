@@ -6,9 +6,13 @@ import { GlobalStyles } from './GlobalStyles';
 type ProviderProps = {
   // TODO: type Theme
   theme?: any;
+  children: any;
 };
 
-export const Provider: FC<ProviderProps> = ({ theme = defaultTheme, children }) => {
+export const Provider: FC<ProviderProps> = ({
+  theme = defaultTheme,
+  children
+}) => {
   return (
     <ThemeProvider theme={theme}>
       <>

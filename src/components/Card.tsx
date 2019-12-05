@@ -2,7 +2,10 @@ import React from 'react';
 import { transparentize } from 'polished';
 import themeGet from '@styled-system/theme-get';
 import { variant, Prop } from '@modulz/radix-system';
-import { Card as CardPrimitive, CardProps as CardPrimitiveProps } from 'mdlz-prmtz';
+import {
+  Card as CardPrimitive,
+  CardProps as CardPrimitiveProps
+} from 'mdlz-prmtz';
 
 export type Variants = 'border' | 'shadow' | 'ghost';
 
@@ -30,8 +33,8 @@ const createShadow = (defaultOpacity: any, color: any) => ({
     transitionTimingFunction: 'linear',
     boxShadow: `0 10px 38px -10px ${transparentize(0.65, color)},
       0 10px 20px -15px ${transparentize(0.8, color)}`,
-    opacity: defaultOpacity,
-  },
+    opacity: defaultOpacity
+  }
 });
 
 export const baseCard = (props: CardProps) =>
@@ -43,7 +46,7 @@ export const baseCard = (props: CardProps) =>
         padding: 4,
         borderRadius: 3,
         border: '1px solid transparent',
-        borderColor: 'grays.3',
+        borderColor: 'grays.3'
       },
       ghost: {
         backgroundColor: 'white',
@@ -51,7 +54,7 @@ export const baseCard = (props: CardProps) =>
         padding: 4,
         borderRadius: 3,
         border: '1px solid transparent',
-        ...createShadow(0, themeGet('colors.grays.8')(props)),
+        ...createShadow(0, themeGet('colors.grays.8')(props))
       },
       shadow: {
         backgroundColor: 'white',
@@ -59,15 +62,16 @@ export const baseCard = (props: CardProps) =>
         padding: 4,
         borderRadius: 3,
         borderColor: 'transparent',
-        ...createShadow(1, themeGet('colors.grays.8')(props)),
-      },
-    },
+        ...createShadow(1, themeGet('colors.grays.8')(props))
+      }
+    }
   })(props);
 
-export const Card = React.forwardRef<HTMLDivElement, CardProps>((props, ref) => (
-  <CardPrimitive {...props} ref={ref} css={baseCard} />
-));
+export const Card = React.forwardRef<HTMLDivElement, CardProps>(
+  (props, ref) => <CardPrimitive {...props} ref={ref} css={baseCard} />
+);
 
+Card.displayName = 'Card';
 Card.defaultProps = {
-  variant: 'border',
+  variant: 'border'
 };
