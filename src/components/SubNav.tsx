@@ -4,13 +4,8 @@ import { variant } from 'styled-system';
 import { theme } from '../theme';
 
 type SubNavItemProps = {
-<<<<<<< HEAD
   as?: 'button' | 'a';
   variant?: 'active' | 'normal';
-=======
-  as?: 'button'| 'a';
-  active?: 'active' | 'normal'; 
->>>>>>> refactor: remove radix-system dependency
 };
 
 export const SubNav = styled('nav')(
@@ -19,11 +14,7 @@ export const SubNav = styled('nav')(
     display: 'flex',
     boxShadow: '0 1px 0 0 #dcdcdc',
     padding: 0,
-<<<<<<< HEAD
     backgroundColor: 'white'
-=======
-    backgroundColor: 'white',
->>>>>>> refactor: remove radix-system dependency
   })
 );
 
