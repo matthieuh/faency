@@ -1,0 +1,96 @@
+{
+  "data": {
+    "pinned": {
+      "edges": [
+        {
+          "node": {
+            "id": "e22bb634-af21-5a80-8865-0cc846f1333b",
+            "frontmatter": { "title": "Getting Started" },
+            "fields": { "slug": "/docs/getting-started/" }
+          }
+        },
+        {
+          "node": {
+            "id": "9eba5a38-5c31-5a83-a53b-42dc939ccf7c",
+            "frontmatter": { "title": "Theme" },
+            "fields": { "slug": "/docs/theme/" }
+          }
+        }
+      ]
+    },
+    "components": {
+      "edges": [
+        {
+          "node": {
+            "id": "f43fe554-5397-5f8f-8611-33de66e59e06",
+            "frontmatter": { "title": "Box" },
+            "fields": { "slug": "/docs/box/" }
+          }
+        },
+        {
+          "node": {
+            "id": "5c945c7f-e1c9-5d72-8b68-4b002c534b42",
+            "frontmatter": { "title": "Button" },
+            "fields": { "slug": "/docs/button/" }
+          }
+        },
+        {
+          "node": {
+            "id": "c15037ad-cfea-52b3-9ae3-2fa8b4bafce9",
+            "frontmatter": { "title": "Card" },
+            "fields": { "slug": "/docs/card/" }
+          }
+        },
+        {
+          "node": {
+            "id": "1da28e9a-fe37-5799-9305-1cd86699aace",
+            "frontmatter": { "title": "Chip" },
+            "fields": { "slug": "/docs/chip/" }
+          }
+        },
+        {
+          "node": {
+            "id": "056596f3-13c7-5163-8ff9-9db9e429facb",
+            "frontmatter": { "title": "Flex" },
+            "fields": { "slug": "/docs/flex/" }
+          }
+        },
+        {
+          "node": {
+            "id": "7fdab541-e605-540c-a884-92a29055186e",
+            "frontmatter": { "title": "Heading" },
+            "fields": { "slug": "/docs/heading/" }
+          }
+        },
+        {
+          "node": {
+            "id": "0468f921-702f-588c-8901-44941abc49d1",
+            "frontmatter": { "title": "Input" },
+            "fields": { "slug": "/docs/input/" }
+          }
+        },
+        {
+          "node": {
+            "id": "9b203c98-7724-5d77-94ec-18fb75be7196",
+            "frontmatter": { "title": "Loading" },
+            "fields": { "slug": "/docs/Loading/" }
+          }
+        },
+        {
+          "node": {
+            "id": "c1eb6200-0b61-55be-ad04-484e2495140a",
+            "frontmatter": { "title": "Text" },
+            "fields": { "slug": "/docs/text/" }
+          }
+        },
+        {
+          "node": {
+            "id": "f68a38cc-572a-5f82-9d57-66398ed76573",
+            "frontmatter": { "title": "Tooltip" },
+            "fields": { "slug": "/docs/tooltip/" }
+          }
+        }
+      ]
+    }
+  }
+}
