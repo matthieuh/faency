@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/index.js"],"names":["Index"],"mappings":"2FAAA,OACeA,UADD,kBAAM","file":"component---src-pages-index-js-83b8813bb3abaccdca90.js","sourcesContent":["const Index = () => null\nexport default Index\n"],"sourceRoot":""}
